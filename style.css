@@ -1,4 +1,3 @@
-
 * {
     margin: 0;
     padding: 0;
@@ -8,35 +7,37 @@
     text-decoration: none;
 }
 
+section{
+    height: 50vh;
+}
+
 .First-section {
     background-color: #FEECE0;
+    color: #58190a;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
 }
 
-.Conteudo-principal {
-    display: flex;
-    align-items: center;
-}
 
 img {
-    max-width: 409px;
-    margin-right: 293px;
+    max-width: 80%;
+    height: auto;
 }
 
 .descricao {
     display: flex;
     flex-direction: column;
-}
-
-.descricao img {
-    margin-right: 10px;
-    max-width: 32px;
-    margin-right: 32px;
+    align-items: flex-start;
 }
 
 .direito {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 10px;
 }
 
 .direito p {
@@ -51,21 +52,15 @@ img {
 
 .Second-section {
     background-color: #9B6647;
-}
-
-
-.Second-section {
+    color: #FEECE0;
     display: flex;
-    justify-content: space-between;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 64px;
 }
 
-.ingredientes {
-    flex-basis: 45%;
-}
 
-.modo-preparo {
-    flex-basis: 45%;
-}
 
 .ingredientes img {
     width: 30px;
